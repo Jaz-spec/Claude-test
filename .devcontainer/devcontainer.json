@@ -1,0 +1,113 @@
+{
+  "name": "Team Next.js Development Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {
+      "ppa": true,
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {
+      "installDirectlyFromGitHubRelease": true,
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "moby": true,
+      "azureDnsAutoDetection": true,
+      "installDockerBuildx": true,
+      "version": "latest"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // Essential Next.js development
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "ms-vscode.vscode-typescript-next",
+        "formulahendry.auto-rename-tag",
+        "christian-kohler.path-intellisense",
+        
+        // Team collaboration
+        "ms-vscode.vscode-json",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "ms-vscode.vscode-eslint",
+        
+        // Git workflow
+        "eamodio.gitlens",
+        "github.vscode-pull-request-github",
+        
+        // Productivity
+        "ms-vscode.live-server",
+        "ritwickdey.liveserver",
+        "ms-vscode.vscode-markdown-preview-enhanced"
+      ],
+      
+      "settings": {
+        // Code formatting standards
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+          "source.organizeImports": true
+        },
+        
+        // Team consistency
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        
+        // Git configuration
+        "git.autofetch": true,
+        "git.enableSmartCommit": true,
+        "git.confirmSync": false,
+        
+        // Terminal
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash"
+          }
+        }
+      }
+    }
+  },
+
+  // Port forwarding for team collaboration
+  "forwardPorts": [3000, 3001, 8080, 5432],
+  "portsAttributes": {
+    "3000": {
+      "label": "Next.js Dev Server",
+      "onAutoForward": "notify"
+    },
+    "3001": {
+      "label": "Storybook (if used)",
+      "onAutoForward": "silent"
+    },
+    "8080": {
+      "label": "Preview/Test Server",
+      "onAutoForward": "silent"
+    }
+  },
+
+  // Initial setup
+  "postCreateCommand": "npm install && git config --global --add safe.directory /workspaces/*",
+  
+  // Security and permissions
+  "remoteUser": "node",
+  
+  // Gitpod Desktop specific configurations
+  "runArgs": ["--network=host"],
+  
+  // Mac-specific volume mounts (Docker socket handled differently in Desktop)
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+  ],
+  
+  // Gitpod Desktop optimizations
+  "overrideCommand": false,
+  "shutdownAction": "stopContainer"
+}

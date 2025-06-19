@@ -1,10 +1,10 @@
-ports:
-    - name: test-port
-      description: A test description
-      port: 3000
-      onOpen: open-browser
-# tasks:
-#     - name: preview the web app
-#       command: |
-#           # wait for the port, and then browse a specific path
-#           gp ports await 8080 && gp preview --external $(gp url 8080)/some/path
+# ports:
+#     - name: test-port
+#       description: A test description
+#       port: 3000
+#       onOpen: open-browser
+# # tasks:
+# #     - name: preview the web app
+# #       command: |
+# #           # wait for the port, and then browse a specific path
+# #           gp ports await 8080 && gp preview --external $(gp url 8080)/some/path
