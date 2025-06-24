@@ -1,0 +1,31 @@
+# To-Do List for Weather App Workshop
+
+- [ ] Implement `backend/server.js`:
+  - [ ] Set up Express app with JSON parsing and CORS middleware.
+  - [ ] Mount weather routes under `/api`.
+- [ ] Create route definitions in `backend/routes/weather.js`:
+  - [ ] `GET /api/weather` — return all weather data.
+  - [ ] `GET /api/weather/:location` — return data for a specific location.
+  - [ ] `GET /api/locations` — return list of available locations.
+- [ ] Store sample weather entries in `backend/data/weather-data.json`.
+- [ ] Implement helper functions in `backend/utils/data-helpers.js` to read/format JSON data.
+- [ ] Add error handling:
+  - [ ] Route-level validation and try/catch blocks.
+  - [ ] Global error middleware in `server.js` for unhandled errors.
+
+## Frontend Implementation
+
+- [ ] Create `frontend/index.html` with a container to display JSON output.
+- [ ] Write `frontend/script.js` to fetch data from the backend API and render it.
+- [ ] Add minimal styles in `frontend/style.css` for readability.
+
+## Testing & Documentation
+
+- [ ] Verify that the backend server starts and API endpoints respond correctly.
+- [ ] Ensure the frontend can fetch and display JSON data without errors.
+- [ ] Update README.md with setup and run instructions.
+
+## Finalize Workshop Codebase
+
+- [ ] Clean up code, remove TODO comments, and add explanatory comments where helpful.
+- [ ] Ensure code remains simple and educational, avoiding unnecessary complexity.
