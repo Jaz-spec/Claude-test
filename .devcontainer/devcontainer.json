@@ -13,5 +13,6 @@
 
   // Initial setup
   "postCreateCommand": "npm install && git config --global --add safe.directory /workspaces/*",
+  "postStartCommand": "npm run dev"
   
 }
