@@ -6,14 +6,19 @@ ports:
     visibility: public
 
 tasks:
-  - name: Setup and Dev Server
+  - name: Setup
     command: |
       npm install
       npm install -g @openai/codex
       codex-cli config set api-key $OPENAI_API_KEY
+      gp sync-done install-complete
+  
+  - name: Codex
+    command: |
+      gp sync-await install-complete
       codex
       
   - name: Server
     command: |
+     gp sync-await install-complete
      npm run dev
-     
