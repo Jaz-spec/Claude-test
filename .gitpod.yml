@@ -9,17 +9,11 @@ tasks:
   - name: Setup and Dev Server
     command: |
       npm install
-      npm install -g @openai/codex-cli
+      npm install -g @openai/codex
       codex-cli config set api-key $OPENAI_API_KEY
-      npm run dev
-      
-  - name: Codex CLI
-    command: |
-      # Wait for setup to complete
-      gp sync-await setup-complete
       codex
-    
-  - name: Setup Signal
-    init: |
-      # Signal that setup is complete
-      gp sync-done setup-complete
+      
+  - name: Server
+    command: |
+     npm run dev
+     
