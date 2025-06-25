@@ -27,5 +27,5 @@
 
 ## Finalize Workshop Codebase
 
-- [ ] Clean up code, remove TODO comments, and add explanatory comments where helpful.
+- [x] Clean up code, remove TODO comments, and add explanatory comments where helpful.
 - [ ] Ensure code remains simple and educational, avoiding unnecessary complexity.

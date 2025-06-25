@@ -1,4 +1,9 @@
+/**
+ * Frontend script to fetch weather data from the backend API
+ * and display it on the page.
+ */
 async function fetchWeather() {
+  // Request weather data and update the DOM
   try {
     const response = await fetch('/api/weather');
     if (!response.ok) {
@@ -12,4 +17,5 @@ async function fetchWeather() {
   }
 }
 
+// Fetch weather data when the page loads
 window.addEventListener('load', fetchWeather);

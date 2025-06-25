@@ -1,8 +1,13 @@
+/**
+ * Weather API routes module.
+ * Defines endpoints to retrieve weather data.
+ */
 import express from 'express';
 import { getAllWeather, getWeatherByLocation, getAvailableLocations } from '../utils/data-helpers.js';
 
 const router = express.Router();
 
+// GET /weather - return all weather data
 router.get('/weather', async (req, res, next) => {
   try {
     const weatherData = await getAllWeather();
@@ -12,6 +17,7 @@ router.get('/weather', async (req, res, next) => {
   }
 });
 
+// GET /weather/:location - return weather data for a specific location
 router.get('/weather/:location', async (req, res, next) => {
   try {
     const { location } = req.params;
@@ -28,6 +34,7 @@ router.get('/weather/:location', async (req, res, next) => {
   }
 });
 
+// GET /locations - return list of available locations
 router.get('/locations', async (req, res, next) => {
   try {
     const locations = await getAvailableLocations();
