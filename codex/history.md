@@ -35,3 +35,11 @@
 - **Todo list update** (`codex/todo.md`):
   - Marked sample weather entries step as complete.
   - Marked helper implementation and route-level validation/error-handling as complete.
+
+- **Frontend implementation** (`frontend/index.html`, `frontend/script.js`, `frontend/style.css`):
+  - Created basic HTML structure with container for JSON output.
+  - Wrote script to fetch weather data and render JSON.
+  - Added minimal CSS for readability.
+
+- **Todo list update** (`codex/todo.md`):
+  - Marked frontend implementation tasks as complete.

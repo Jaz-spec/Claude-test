@@ -15,9 +15,9 @@
 
 ## Frontend Implementation
 
-- [ ] Create `frontend/index.html` with a container to display JSON output.
-- [ ] Write `frontend/script.js` to fetch data from the backend API and render it.
-- [ ] Add minimal styles in `frontend/style.css` for readability.
+- [x] Create `frontend/index.html` with a container to display JSON output.
+- [x] Write `frontend/script.js` to fetch data from the backend API and render it.
+- [x] Add minimal styles in `frontend/style.css` for readability.
 
 ## Testing & Documentation
 
