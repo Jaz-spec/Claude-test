@@ -16,3 +16,9 @@
 - **ESM conversion**:
   - Updated `backend/package.json` to enable ESM via `"type": "module"`.
   - Converted `server.js` and `routes/weather.js` to use `import`/`export` syntax.
+
+- **Weather routes implementation** (`backend/routes/weather.js`):
+  - Added `GET /api/weather` to return all weather entries.
+  - Added `GET /api/weather/:location` to return weather for a specific location.
+  - Added `GET /api/locations` to return list of available locations.
+  - Wrapped route handlers in try/catch blocks and forwarded errors to global error-handling middleware.
