@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import weatherRoutes from './routes/weather.js';
+import weatherRoutes from './backend/routes/weather.js';
 
 const app = express();
 
@@ -23,5 +23,5 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+  console.log(`Server listening on port http://localhost:${PORT}`);
 });
