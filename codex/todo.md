@@ -23,7 +23,7 @@
 
 - [x] Verify that the backend server starts and API endpoints respond correctly.
 - [x] Ensure the frontend can fetch and display JSON data without errors.
-- [ ] Update README.md with setup and run instructions.
+- [x] Update README.md with setup and run instructions.
 
 ## Finalize Workshop Codebase
 

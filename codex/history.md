@@ -47,3 +47,6 @@
 - **Static file serving for frontend** (`server.js`):
   - Added `express.static` middleware to serve the `frontend` directory.
   - Added root (`/`) route to send `frontend/index.html`.
+
+- **Todo list update** (`codex/todo.md`):
+  - Marked README update as complete.
