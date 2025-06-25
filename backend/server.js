@@ -1,6 +1,6 @@
-const express = require('express');
-const cors = require('cors');
-const weatherRoutes = require('./routes/weather');
+import express from 'express';
+import cors from 'cors';
+import weatherRoutes from './routes/weather.js';
 
 const app = express();
 
