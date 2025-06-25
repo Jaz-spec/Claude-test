@@ -22,3 +22,9 @@
   - Added `GET /api/weather/:location` to return weather for a specific location.
   - Added `GET /api/locations` to return list of available locations.
   - Wrapped route handlers in try/catch blocks and forwarded errors to global error-handling middleware.
+
+- **Sample data population** (`backend/data/weather-data.json`):
+  - Added sample weather entries for London, New York, and Tokyo.
+
+- **Todo list update** (`codex/todo.md`):
+  - Marked sample weather entries step as complete.

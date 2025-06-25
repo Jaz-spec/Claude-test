@@ -1,0 +1,32 @@
+[
+  {
+    "location": "London",
+    "weather": {
+      "temperature": 18,
+      "humidity": 65,
+      "conditions": "Cloudy",
+      "windSpeed": 12,
+      "lastUpdated": "2025-06-24T10:00:00Z"
+    }
+  },
+  {
+    "location": "New York",
+    "weather": {
+      "temperature": 25,
+      "humidity": 60,
+      "conditions": "Sunny",
+      "windSpeed": 8,
+      "lastUpdated": "2025-06-24T10:00:00Z"
+    }
+  },
+  {
+    "location": "Tokyo",
+    "weather": {
+      "temperature": 22,
+      "humidity": 70,
+      "conditions": "Rainy",
+      "windSpeed": 15,
+      "lastUpdated": "2025-06-24T10:00:00Z"
+    }
+  }
+]

@@ -3,11 +3,11 @@
 - [x] Implement `backend/server.js`:
   - [x] Set up Express app with JSON parsing and CORS middleware.
   - [x] Mount weather routes under `/api`.
-- [ ] Create route definitions in `backend/routes/weather.js`:
-  - [ ] `GET /api/weather` — return all weather data.
-  - [ ] `GET /api/weather/:location` — return data for a specific location.
-  - [ ] `GET /api/locations` — return list of available locations.
-- [ ] Store sample weather entries in `backend/data/weather-data.json`.
+- [x] Create route definitions in `backend/routes/weather.js`:
+  - [x] `GET /api/weather` — return all weather data.
+  - [x] `GET /api/weather/:location` — return data for a specific location.
+  - [x] `GET /api/locations` — return list of available locations.
+- [x] Store sample weather entries in `backend/data/weather-data.json`.
 - [ ] Implement helper functions in `backend/utils/data-helpers.js` to read/format JSON data.
 - [ ] Add error handling:
   - [ ] Route-level validation and try/catch blocks.
