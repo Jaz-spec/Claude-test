@@ -25,6 +25,13 @@
 
 - **Sample data population** (`backend/data/weather-data.json`):
   - Added sample weather entries for London, New York, and Tokyo.
+ 
+- **Async data helpers** (`backend/utils/data-helpers.js`):
+  - Converted data-helpers to async/await using fs/promises.
+
+- **Route handlers refactor** (`backend/routes/weather.js`):
+  - Updated route callbacks to async functions and awaited data helper calls.
 
 - **Todo list update** (`codex/todo.md`):
   - Marked sample weather entries step as complete.
+  - Marked helper implementation and route-level validation/error-handling as complete.

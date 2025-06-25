@@ -3,19 +3,19 @@ import { getAllWeather, getWeatherByLocation, getAvailableLocations } from '../u
 
 const router = express.Router();
 
-router.get('/weather', (req, res, next) => {
+router.get('/weather', async (req, res, next) => {
   try {
-    const weatherData = getAllWeather();
+    const weatherData = await getAllWeather();
     res.json({ success: true, data: weatherData, timestamp: new Date().toISOString() });
   } catch (err) {
     next(err);
   }
 });
 
-router.get('/weather/:location', (req, res, next) => {
+router.get('/weather/:location', async (req, res, next) => {
   try {
     const { location } = req.params;
-    const weather = getWeatherByLocation(location);
+    const weather = await getWeatherByLocation(location);
     if (!weather) {
       const error = new Error(`Location not found: ${location}`);
       error.status = 404;
@@ -28,9 +28,9 @@ router.get('/weather/:location', (req, res, next) => {
   }
 });
 
-router.get('/locations', (req, res, next) => {
+router.get('/locations', async (req, res, next) => {
   try {
-    const locations = getAvailableLocations();
+    const locations = await getAvailableLocations();
     res.json({ success: true, data: locations, timestamp: new Date().toISOString() });
   } catch (err) {
     next(err);

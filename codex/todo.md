@@ -8,9 +8,9 @@
   - [x] `GET /api/weather/:location` — return data for a specific location.
   - [x] `GET /api/locations` — return list of available locations.
 - [x] Store sample weather entries in `backend/data/weather-data.json`.
-- [ ] Implement helper functions in `backend/utils/data-helpers.js` to read/format JSON data.
-- [ ] Add error handling:
-  - [ ] Route-level validation and try/catch blocks.
+- [x] Implement helper functions in `backend/utils/data-helpers.js` to read/format JSON data.
+- [x] Add error handling:
+  - [x] Route-level validation and try/catch blocks.
   - [x] Global error middleware in `server.js` for unhandled errors.
 
 ## Frontend Implementation
