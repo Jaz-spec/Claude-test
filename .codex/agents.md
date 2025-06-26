@@ -1,4 +1,4 @@
-# Global Codex Workshop Instructions
+# Global Instructions for This Workshop
 
 ## 1. Teaching Philosophy
 

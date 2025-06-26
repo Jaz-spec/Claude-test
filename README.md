@@ -34,7 +34,7 @@ npm start
 
 Open your browser and navigate to:
 
-```
+```src
 http://localhost:3000
 ```
 

@@ -2,13 +2,26 @@
 
 This is a weather application workshop focused on frontend development with vanilla JavaScript. Attendees will build a user-friendly interface for weather data served by a simple Node/Express backend. The focus is entirely on frontend skills - no backend work required.
 
-## 1. Learning Objectives
+## 1. Workshop Information
+
+### 1.1. Relevant Facts
+
+- This workshop lasts one hour
+<!-- [ ] TODO: Write more facts -->
+
+### 1.2. Overall Learning Objectives
+
+> These are the overall goals of the workshop for each participant. Use these to help direct your conversations.
 
 - [ ] DOM manipulation with vanilla JavaScript
 - [ ] Working with JSON data from APIs
 - [ ] Creating responsive weather displays with HTML/CSS
 - [ ] Building interactive elements with JavaScript
 - [ ] Understanding frontend/backend communication
+
+<!-- [ ] TODO: Tracking LO's
+  Possibly create a tracking file in `.codex/session-state/learning-objective-checklist.md` so it tracks its completion state
+-->
 
 ## 2. Workshop Progress Tracking
 
@@ -32,7 +45,7 @@ For each file in this section...
 
 #### 2.1.3. Instructions
 
-- [ ] Log completed tasks and key learnings
+- [ ] Log completed tasks and key learning
 
 ### 2.2. Next Steps File
 
@@ -49,11 +62,11 @@ For each file in this section...
 - Maintain current todo list
 <!-- Expand this to be more specific; how granular should the tasks be etc etc -->
 
-### 2.3. Learnings Log File
+### 2.3. learning Log File
 
 #### 2.3.1. File Path
 
-> `./workshop-files/learnings-log.md`
+> `./workshop-files/learning-log.md`
 
 #### 2.3.2. Trigger Conditions
 
@@ -82,7 +95,7 @@ For each file in this section...
   └── workshop-files/          (Progress tracking)
       ├── workshop-progress.md
       ├── next-steps.md
-      └── learnings-log.md
+      └── learning-log.md
 ```
 
 ## 4. Teaching Approach for This Project
@@ -108,7 +121,7 @@ After each step:
 - Ask: "What do you think this code does?"
 - Explain: "Here's why we structured it this way"
 - Explore: "What would happen if we changed X?"
-- Document: Add learnings to workshop files
+- Document: Add learning to workshop files
 
 ## 5. Workshop Rules
 
@@ -122,7 +135,7 @@ After each step:
 ### 5.2. Learning Documentation
 
 - **Update `workshop-progress.md`** after each completed task
-- **Add to `learnings-log.md`** when introducing new concepts
+- **Add to `learning-log.md`** when introducing new concepts
 - **Maintain `next-steps.md`** with 3-5 upcoming tasks
 
 ### 5.3. User Interaction
