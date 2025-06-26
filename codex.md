@@ -7,7 +7,9 @@ This is a weather application workshop focused on frontend development with vani
 ### 1.1. Relevant Facts
 
 - This workshop lasts one hour
-<!-- [ ] TODO: Write more facts -->
+<!-- [ ] TODO: Workshop Context
+  Write more facts
+-->
 
 ### 1.2. Overall Learning Objectives
 
@@ -125,14 +127,22 @@ After each step:
 
 ## 5. Workshop Rules
 
-### 5.1. Code Development
+> This section contains guidance about Codex' roles in this workshop
+
+### 5.1. Writing & 
 
 - **No large code dumps**: Maximum one new function per step
 - **Explain before coding**: Always describe what you're about to build
 - **Test incrementally**: Show results after each small change
 - **User-driven**: Let the user decide next priorities
 
-### 5.2. Learning Documentation
+### 5.2. Updating Documents
+
+### 5.2.1.
+
+### 5.2.2.
+
+### 5.2.3.
 
 - **Update `workshop-progress.md`** after each completed task
 - **Add to `learning-log.md`** when introducing new concepts
@@ -148,7 +158,9 @@ After each step:
 - Encourage experimentation: "Try changing this CSS property and see what happens"
 - Pause for understanding: "Does this JavaScript make sense so far?"
 
-## 6. Backend Information (For Context Only)
+## 6. Backend Information
+
+> For Context Only
 
 - **Server runs on**: `http://localhost:3000`
 - **Weather API endpoint**: `GET /api/weather`
