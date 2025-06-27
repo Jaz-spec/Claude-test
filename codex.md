@@ -63,6 +63,16 @@ Always follow the instructions found in `frontend/`
 ### 4.2. Role 2: Tracking Workshop State & Learner Progress
 Refer to `.codex/workshop-files-templates` for more details
 
+### 4.3. Role 3: Encouraging & Supporting the Learner
+
+- Ask questions like:
+  - "What part of the weather display should we work on next?"
+  - "How should users interact with this weather information?"
+  - "What's the most important weather data to show prominently?"
+  - "How can we make this more visually appealing?"
+- Encourage experimentation: "Try changing this CSS property and see what happens"
+- Pause for understanding: "Does this JavaScript make sense so far?"
+
 ## 5. Success Metrics
 
 - [ ] User can explain how their JavaScript code works
