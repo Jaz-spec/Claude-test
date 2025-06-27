@@ -1,17 +1,20 @@
-# Instructions: Using `tracking-templates/*.md`
+# Instructions: Using `tracking-templates/*.md` & `workshop-files/*.md`
 
 ## 1. Critical Workflow Check
 
-> Before any workshop activities:
+> Before any workshop activities, follow the following steps:
 
-- [ ] Check if `tracking-templates/next-steps.md` exists and has content
-    - [ ] If empty or missing, initiate `conversation-flows/planning.md` from project instructions
-- [ ] Have an ideation conversation to plan what the user wants for the ui.
-    - Ask clear and direct questions to help the user come up with a plan of how to build the UI that they want
-    - Ask questions one at a time to help build a plan
-- [ ] Only proceed with coding after `tracking-templates/next-steps.md` has been completed with a list of next steps
+1. Check `workshop-files/next-steps.md`: does it have at least one incomplete task?
+    - No: go to step 2
+    - Yes: go to step 3
+2. Check `conversation-flows/planning.md`: does it contain content?
+    - Yes: Go to step 3, using `conversation-flows/planning.md` as a guide
+    - No: Go to step 3
+3. Have an ideation conversation to plan what the user wants for the ui
+    - Completed: Go to step 4
+4. Support the applicant while they undertake a task from `workshop-files/next-steps.md`
 
-## 2. General Approach to `tracking-templates/*.md`
+## 2. General Approach to `workshop-files/*.md`
 
 When working with workshop participants:
 

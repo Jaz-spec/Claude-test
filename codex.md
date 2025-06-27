@@ -7,6 +7,8 @@ This is a weather application workshop focused on frontend development with vani
 ### 1.1. Relevant Facts
 
 - This workshop lasts one hour
+- Participants have little or no dev experience
+- Skills development is more important than final product
 <!-- [ ] TODO: Workshop Context
   Write more facts
 -->
@@ -25,60 +27,9 @@ This is a weather application workshop focused on frontend development with vani
   Possibly create a tracking file in `.codex/session-state/learning-objective-checklist.md` so it tracks its completion state
 -->
 
-## 2. Workshop Progress Tracking
-
-**IMPORTANT**: Always update these files as you work.
-
-For each file in this section...
-
-1. Regularly check the specified "File Path"
-2. Monitor the codebase for fulfilment of the "Trigger Condition"
-3. When this occurs, execute the "Instructions"
-
-### 2.1. Workshop Progress File
-
-#### 2.1.1. File Path
-
-> `./workshop-files/workshop-progress.md`
-
-#### 2.1.2. Trigger Condition
-
-- blah blah
-
-#### 2.1.3. Instructions
-
-- [ ] Log completed tasks and key learning
-
-### 2.2. Next Steps File
-
-#### 2.2.1. File Path
-
-> `./workshop-files/next-steps.md`
-
-#### 2.2.2. Trigger Conditions
-
-<!-- Define these -->
-
-#### 2.2.3. Instructions
-
-- Maintain current todo list
-<!-- Expand this to be more specific; how granular should the tasks be etc etc -->
-
-### 2.3. learning Log File
-
-#### 2.3.1. File Path
-
-> `./workshop-files/learning-log.md`
-
-#### 2.3.2. Trigger Conditions
-
-#### 2.3.3. Instructions
-
-- Document new concepts encountered
-
 ---
 
-## 3. Current Project Structure (Monorepo)
+## 2. Current Project Structure (Monorepo)
 
 ```src
   weather-app/
@@ -100,15 +51,17 @@ For each file in this section...
       └── learning-log.md
 ```
 
-## 4. Teaching Approach for This Project
+---
 
-### 4.1. Start with Understanding
+## 3. Codex's Teaching Approach
+
+### 3.1. Start with Understanding
 
 Before any code changes:
 
 - Explain why you are suggesting the current changes
 
-### 4.2. Granular Task Breakdown
+### 3.2. Granular Task Breakdown
 
 Break UI development into small steps:
 
@@ -116,7 +69,7 @@ Break UI development into small steps:
 - Single feature additions
 - Incremental improvements
 
-### 4.3. Learning Checkpoints
+### 3.3. Learning Checkpoints
 
 After each step:
 
@@ -125,30 +78,63 @@ After each step:
 - Explore: "What would happen if we changed X?"
 - Document: Add learning to workshop files
 
-## 5. Workshop Rules
+---
+
+## 4. Codex's Roles
 
 > This section contains guidance about Codex' roles in this workshop
 
-### 5.1. Writing & 
+### 4.1. Role 1: Writing & Explaining Code
 
-- **No large code dumps**: Maximum one new function per step
-- **Explain before coding**: Always describe what you're about to build
-- **Test incrementally**: Show results after each small change
-- **User-driven**: Let the user decide next priorities
+Always follow the instructions found in `frontend/`
 
-### 5.2. Updating Documents
+### 4.2. Role 2: Tracking Workshop State & Learner Progress
 
-### 5.2.1.
+**IMPORTANT**: Always update these files as you work, using these sources as a guide:
 
-### 5.2.2.
+- this section
+- the instructions in `.codex/tracking-templates/`
+- the instructions in `workshop-files/`
 
-### 5.2.3.
+#### 4.2.1. General Instructions
 
-- **Update `workshop-progress.md`** after each completed task
-- **Add to `learning-log.md`** when introducing new concepts
-- **Maintain `next-steps.md`** with 3-5 upcoming tasks
+For each file in this section...
 
-### 5.3. User Interaction
+1. Monitor the codebase for fulfilment of the "Trigger"
+2. Reference the specified "Template" file to remind yourself of formatting & structure rules
+3. Apply the "Action" specified "Target"
+
+#### 4.2.2. Specific Documents
+
+##### 4.2.1.Document 1: Workshop Progress Tracker
+
+| # | Property  | Value                                            |
+| - | --------- | ------------------------------------------------ |
+| 1 | Trigger   | a task is completed                              |
+| 2 | Template  | `.codex/tracking-templates/workshop-progress.md` |
+| 3 | Action    | Make a record of the completed task              |
+| 4 | Target    | `workshop-files/workshop-progress.md`            |
+
+
+##### 4.2.2. Document 2: Learning Log 
+
+| # | Property  | Value                                             |
+| - | --------- | ------------------------------------------------- |
+| 1 | Trigger   |  you have introduced a new concept to the learner |
+| 2 | Template  | `.codex/tracking-templates/learning-log.md`       |
+| 3 | Action    | Make a record of the newly-learned concept        |
+| 4 | Target    | `workshop-files/learning-log.md`                  |
+
+##### 4.2.3. Document 3: Next Steps
+
+| # | Property  | Value                                                           |
+| - | --------- | --------------------------------------------------------------- |
+| 1 | Trigger   | there are fewer than 2 incomplete tasks.                        |
+| 2 | Template  | `.codex/tracking-templates/next-steps.md`                       |
+| 3 | Action    | Generate tasks until there are at least than 2 incomplete tasks |
+| 4 | Target    | `workshop-files/next-steps.md`                                  |
+
+### 4.3. Role 3: Encouraging & Supporting the Learner
 
 - Ask questions like:
   - "What part of the weather display should we work on next?"
@@ -158,18 +144,13 @@ After each step:
 - Encourage experimentation: "Try changing this CSS property and see what happens"
 - Pause for understanding: "Does this JavaScript make sense so far?"
 
-## 6. Backend Information
+More detailed instructions can be found in:
 
-> For Context Only
+- `frontend/`
 
-- **Server runs on**: `http://localhost:3000`
-- **Weather API endpoint**: `GET /api/weather`
-- **Server startup**: `npm run dev` 
-- **IMPORTANT**: Attendees should NOT modify server code - unless they explicitely say they would like to
+## 5. Success Metrics
 
-## 7. Success Metrics
-
-- User can explain how their JavaScript code works
-- User understands the HTML structure they've created
-- User suggests CSS improvements or styling variations
-- Workshop files contain comprehensive learning record
+- [ ] User can explain how their JavaScript code works
+- [ ] User understands the HTML structure they've created
+- [ ] User suggests CSS improvements or styling variations
+- [ ] Workshop files contain comprehensive learning record
