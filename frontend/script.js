@@ -18,4 +18,17 @@ async function fetchWeather() {
 }
 
 // Fetch weather data when the page loads
-window.addEventListener('load', fetchWeather);
+window.addEventListener('load', () => {
+  fetchWeather();
+
+  const searchForm = document.getElementById('search-form');
+  const locationInput = document.getElementById('location-input');
+  if (searchForm && locationInput) {
+    searchForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const location = locationInput.value.trim();
+      console.log('Searching for', location);
+      document.getElementById('weather-data').innerText = `Searching for ${location}…`;
+    });
+  }
+});
