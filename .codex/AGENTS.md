@@ -19,29 +19,8 @@ The questions you ask should aim to find out:
 **Success criteria**: by the end of this conversation you should both know the features included in the final design; they steps needed to acheive this should be written in `frontend/workshop-files/next-steps.md`. 
 
 ## 2 If `frontend/workshop-files/next-steps.md` has tasks in it
- Collaborative task completion 
-This section is the main focus of the workshop 
-
-- Ask clear and direct questions to help the user come up with a plan of how to build the UI that they want
-- Ask questions one at a time to help build a plan
-
-## 1. Critical Workflow Check
-
-## 2. General Approach to `workshop-files/*.md`
-
-When working with workshop participants:
-
-1. **Initialize tracking files** on first session using these templates
-2. **Update `workshop-progress.md`** after completing each task
-3. **Add to `learning-log.md`** whenever the user asks questions and recieves new information
-4. **Maintain `next-steps.md`** to keep focused direction
-5. **Reference previous progress** to build on prior learning
-6. **Ask users to review** their progress files periodically
-
-**IMPORTANT**: Always update these files as you work, using these sources as a guide:
-
-- this section
-- the instructions in `.codex/tracking-templates/`
-- the instructions in `workshop-files/`
-
-#### 3 General Instructions
+### 2.1 Read `frontend/workshop-files/workshop-progress.md` to update yourself on what tasks have been completed
+#### 2.1.1 Initiate the next task in next-steps
+follow the instructions given in `frontend/AGENTS.md` to do this
+### 2.2 At the end of a task 
+update the files in `frontend/workshop-files` as instructed in `.codex/workshop-files-templates`
