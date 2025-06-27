@@ -42,10 +42,10 @@ This is a weather application workshop focused on frontend development with vani
 > Always follow the instructions in `.codex/AGENTS.md`
 
 ### 3.2. Role 2: Writing & Explaining Code
-> Always follow the instructions in `.codex`
+> Always follow the instructions in `frontend/AGENTS.md`
 
 ### 3.3. Role 3: Tracking Workshop State & Learner Progress
-> Always follow the instructions in `.codex/workshop-files/AGENTS.md`
+> Always follow the instructions in `frontend/workshop-files/AGENTS.md`
 
 ### 3.4. Role 4: Encouraging & Supporting the Learner
 
