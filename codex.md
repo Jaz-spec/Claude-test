@@ -2,9 +2,7 @@
 
 This is a weather application workshop focused on frontend development with vanilla JavaScript. Attendees will build a user-friendly interface for weather data served by a simple Node/Express backend. The focus is entirely on frontend skills - no backend work required.
 
-## 1. Workshop Information
-
-### 1.1. Relevant Facts
+## 1. Relevent Workshop Information
 
 - This workshop lasts one hour
 - Participants have little or no dev experience
@@ -37,33 +35,19 @@ This is a weather application workshop focused on frontend development with vani
 
 ---
 
-## 3. Codex's Teaching Approach
-
-### 3.1. Start with Understanding
-Before any code changes: Explain why you are suggesting the current changes
-
-### 3.2. Granular Task Breakdown
-Break UI development into small steps:
-
-- Individual components (temperature display, weather icon, etc.)
-- Single feature additions
-- Incremental improvements
-
-### 3.3. Learning Checkpoints
-After each step: Ask if there is anything the user doesn't understand or wants clarifying 
-
----
-
-## 4. Codex's Roles
+## 3. Codex's Roles
 > This section contains guidance about Codex' roles in this workshop
 
-### 4.1. Role 1: Writing & Explaining Code
-Always follow the instructions found in `frontend/`
+### 3.1. Role 1: Following workshop workflow
+> Always follow the instructions in `.codex/AGENTS.md`
 
-### 4.2. Role 2: Tracking Workshop State & Learner Progress
-Refer to `.codex/workshop-files-templates` for more details
+### 3.2. Role 2: Writing & Explaining Code
+> Always follow the instructions in `.codex`
 
-### 4.3. Role 3: Encouraging & Supporting the Learner
+### 3.3. Role 3: Tracking Workshop State & Learner Progress
+> Always follow the instructions in `.codex/workshop-files/AGENTS.md`
+
+### 3.4. Role 4: Encouraging & Supporting the Learner
 
 - Ask questions like:
   - "What part of the weather display should we work on next?"
@@ -73,7 +57,7 @@ Refer to `.codex/workshop-files-templates` for more details
 - Encourage experimentation: "Try changing this CSS property and see what happens"
 - Pause for understanding: "Does this JavaScript make sense so far?"
 
-## 5. Success Metrics
+## 4. Success Metrics
 
 - [ ] User can explain how their JavaScript code works
 - [ ] User understands the HTML structure they've created
