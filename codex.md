@@ -13,20 +13,6 @@ This is a weather application workshop focused on frontend development with vani
   Write more facts
 -->
 
-### 1.2. Overall Learning Objectives
-
-> These are the overall goals of the workshop for each participant. Use these to help direct your conversations.
-
-- [ ] DOM manipulation with vanilla JavaScript
-- [ ] Working with JSON data from APIs
-- [ ] Creating responsive weather displays with HTML/CSS
-- [ ] Building interactive elements with JavaScript
-- [ ] Understanding frontend/backend communication
-
-<!-- [ ] TODO: Tracking LO's
-  Possibly create a tracking file in `.codex/session-state/learning-objective-checklist.md` so it tracks its completion state
--->
-
 ---
 
 ## 2. Current Project Structure (Monorepo)
