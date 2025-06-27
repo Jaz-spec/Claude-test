@@ -98,6 +98,7 @@ Always follow the instructions found in `frontend/`
 - the instructions in `workshop-files/`
 
 #### 4.2.1. General Instructions
+**IMPORTANT**: DO NOT DELETE ANY CONTENT IN `learnings-log.md`, `next-steps.md`, `workshop-progress.md`; ONLY ADD TO THEM.
 
 For each file in this section...
 
