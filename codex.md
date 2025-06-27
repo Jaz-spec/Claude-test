@@ -34,6 +34,7 @@ This is a weather application workshop focused on frontend development with vani
 ```src
   weather-app/
   ├── server.js                (Express server entrypoint — DO NOT MODIFY)
+  ├── api-tests.http           (HTTP test file with comprehensive tests for all weather API endpoints)
   ├── backend/                 (API implementation for context only)
   │   ├── data/
   │   │   └── weather-data.json   (Weather data source)

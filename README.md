@@ -1,47 +1,36 @@
 # Weather App Workshop
-
 This is a minimal full-stack weather application built with Node.js (Express) and vanilla JavaScript. It is designed for educational purposes to demonstrate core full-stack concepts without unnecessary complexity.
 
-## Prerequisites
+# Workshop Aims
+- To explore an AI workflow using Codex CLI to write code
+- To use AI to navigate learning 
 
-- Node.js (v14 or higher)
-- npm (v6 or higher)
+# What you're building
+Use AI to help you build a user interface for a weather app - The aim is for you to direct codex in writing most of your code. Your job is to direct and review the code
 
-## Installation
+The backend of this codebase is set up for you and provides some dummy weather data to the front end (where you'll be working) 
 
-Install the project dependencies:
+In this workshop you will probably only have an hour of coding time so try not to be too ambitious with what you're trying to create and focus on the AI workflow
+---
+# Workflow 
 
-```bash
-npm install
-```
+## Key files to track project progress
+In the `workshop-files` folder:
+- `learnings-log.md` where Codex (and you) can write any key points you learnt about over the workshop
+- `next-steps.md` Where Codex will write a project to-do list of the tasks that need completing
+- `workshop-progress.md` where Codex will keep track of completed tasks so it's up to date with your project status
 
-## Running the Application
+## At the Start:
+1. Have an introductory conversation to establish you're current knowledge base -> "Let's establish my knowledge base"
+2. Have a planning conversation so you and your agent know what you're working towards -> "Let's plan my project"
+If you are unfamiliar with the file structure of the project you could also start by asking some learning questions like "can you explain the project structure to me"
+And don't forget to prompt AI to write any learnings to the learning-log!
+3. Prompt AI to write both of the discussion outcomes to its relevent files
+4. Clear context using the `/clear` command 
 
-Start the server:
-
-```bash
-npm start
-```
-
-By default, the server will start at `http://localhost:3000`. To use a different port, set the `PORT` environment variable:
-
-```bash
-export PORT=4000
-npm start
-```
-
-## Usage
-
-Open your browser and navigate to:
-
-```src
-http://localhost:3000
-```
-
-The frontend will load and display weather data fetched from the backend API.
-
-## API Endpoints
-
-- `GET /api/weather` — Returns all weather data.
-- `GET /api/weather/:location` — Returns weather data for a specific location.
-- `GET /api/locations` — Returns a list of available locations.
+## For Each task:
+1. Ask Codex to refresh it's memory by reading its relevant files 
+2. either initiate your next task on the to-do list, or ask clarifying questions 
+3. Iterate on your task until you're happy with the code implemented and you understand what the code does
+4. Prompt Codex to write any learnings to the `learning-log.md` and update project progress in `workshop-progress.md`
+5. Clear context using `/clear` command before moving onto the next task

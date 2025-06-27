@@ -1,0 +1,54 @@
+### Weather API Tests
+### Base URL: http://localhost:3000
+
+### Get all weather data
+GET http://localhost:3000/api/weather
+Accept: application/json
+
+###
+
+### Get weather for London
+GET http://localhost:3000/api/weather/london
+Accept: application/json
+
+###
+
+### Get weather for New York
+GET http://localhost:3000/api/weather/new%20york
+Accept: application/json
+
+###
+
+### Get weather for Tokyo
+GET http://localhost:3000/api/weather/tokyo
+Accept: application/json
+
+###
+
+### Get weather for non-existent location (should return 404)
+GET http://localhost:3000/api/weather/paris
+Accept: application/json
+
+###
+
+### Get all available locations
+GET http://localhost:3000/api/locations
+Accept: application/json
+
+###
+
+### Test case sensitivity - London with different cases
+GET http://localhost:3000/api/weather/LONDON
+Accept: application/json
+
+###
+
+### Test case sensitivity - Mixed case
+GET http://localhost:3000/api/weather/ToKyO
+Accept: application/json
+
+###
+
+### Frontend route test
+GET http://localhost:3000/
+Accept: text/html
