@@ -17,6 +17,7 @@ tasks:
     command: |
       gp sync-await install-complete
       codex
+    openMode: tab-after
       
   - name: Server
     command: |
