@@ -11,17 +11,31 @@ tasks:
       npm install
       npm install -g @openai/codex
     command: |
-      # Configure codex with the API key from Gitpod secrets
-      codex set api-key $OPENAI_API_KEY
+      npm run dev
       gp sync-done install-complete
   
   - name: Codex
     command: |
       gp sync-await install-complete
       codex
-    openMode: tab-after
+
+# tasks:
+#   - name: Setup
+#     init: |
+#       npm install
+#       npm install -g @openai/codex
+#     command: |
+#       # Configure codex with the API key from Gitpod secrets
+#       codex config set api-key $OPENAI_API_KEY
+#       gp sync-done install-complete
+  
+#   - name: Codex
+#     command: |
+#       gp sync-await install-complete
+#       codex
+#     openMode: tab-after
       
-  - name: Server
-    command: |
-      gp sync-await install-complete
-      npm run dev
+#   - name: Server
+#     command: |
+#       gp sync-await install-complete
+#       npm run dev
