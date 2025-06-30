@@ -1,16 +1,18 @@
 ports:
   - name: Dev Server
-    description: Next.js development server
+    description: Development server
     port: 3000
     onOpen: open-browser
     visibility: public
 
 tasks:
   - name: Setup
-    command: |
+    init: |
       npm install
       npm install -g @openai/codex
-      codex-cli config set api-key $OPENAI_API_KEY
+    command: |
+      # Configure codex with the API key from Gitpod secrets
+      codex config set api-key $OPENAI_API_KEY
       gp sync-done install-complete
   
   - name: Codex
@@ -21,5 +23,5 @@ tasks:
       
   - name: Server
     command: |
-     gp sync-await install-complete
-     npm run dev
+      gp sync-await install-complete
+      npm run dev
