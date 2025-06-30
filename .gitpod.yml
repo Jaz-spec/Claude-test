@@ -12,7 +12,7 @@ tasks:
       npm install -g @openai/codex
     command: |
       # Configure codex with the API key from Gitpod secrets
-      codex config set api-key $OPENAI_API_KEY
+      codex set api-key $OPENAI_API_KEY
       gp sync-done install-complete
   
   - name: Codex
