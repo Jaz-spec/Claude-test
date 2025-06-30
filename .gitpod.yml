@@ -10,9 +10,9 @@ tasks:
     init: |
       npm install
       npm install -g @openai/codex
+      gp sync-done install-complete
     command: |
       npm run dev
-      gp sync-done install-complete
   
   - name: Codex
     command: |
