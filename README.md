@@ -9,8 +9,6 @@ This is a minimal full-stack weather application built with Node.js (Express) an
 Use AI to help you build a user interface for a weather app - The aim is for you to direct codex in writing most of your code. Your job is to direct and review the code
 
 The backend of this codebase is set up for you and provides some dummy weather data to the front end (where you'll be working) 
-
-In this workshop you will probably only have an hour of coding time so try not to be too ambitious with what you're trying to create and focus on the AI workflow
 ---
 # Workflow 
 
