@@ -12,10 +12,8 @@ tasks:
       npm install -g @openai/codex
       gp sync-done install-complete
     command: |
-      echo "Checking codex config..."
-      codex config list || echo "No config found"
-      echo "Environment: $OPENAI_API_KEY"
       npm run dev
+    openMode: browser
   
   - name: Codex
     command: |
